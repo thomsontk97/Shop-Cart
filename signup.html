@@ -7,6 +7,7 @@
     <title>Signup</title>
     <link rel="stylesheet" href="./pro-styles.css" />
     <link rel="stylesheet" href="./styles.css" />
+    <link rel="stylesheet" href="./signup-styles.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -26,15 +27,23 @@
       </div>
     </div>
     <!-- Signup Form -->
-    <div class="form-head">Signup</div>
-    <form id="signup-form" class="forms">
-      <input type="text" id="first-name" placeholder="First Name" />
-      <input type="text" id="last-name" placeholder="Last Name" />
-      <input type="email" id="email" placeholder="Email" required />
-      <input type="password" id="pass" placeholder="Password" />
-      <input type="password" id="pass-cnfrm" placeholder="Confirm Password" />
-      <button id="btn-signup" class="buttons">Signup</button>
-    </form>
+    <div class="signup-container">
+      <div id="signup-box">
+        <div class="form-head">Signup</div>
+        <form id="signup-form" class="forms">
+          <input type="text" id="first-name" placeholder="First Name" />
+          <input type="text" id="last-name" placeholder="Last Name" />
+          <input type="email" id="email" placeholder="Email" required />
+          <input type="password" id="pass" placeholder="Password" />
+          <input
+            type="password"
+            id="pass-cnfrm"
+            placeholder="Confirm Password"
+          />
+          <button id="btn-signup" class="buttons">Signup</button>
+        </form>
+      </div>
+    </div>
     <!-- Script -->
     <script src="./pro-script.js"></script>
   </body>

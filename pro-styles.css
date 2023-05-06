@@ -1,50 +1,51 @@
 /* Write your styles here */
-*{
-    font-family: 'Inter', sans-serif;
+* {
+  font-family: "Inter", sans-serif;
 }
-.form-head{
-    margin:3.25rem;
-    margin-bottom: 1.5rem;
-    font-size:1.75rem;
-    font-weight: 400;
-}
-
-.forms{
-    display:flex;
-    flex-flow:column wrap;
-
-    width:90vw;
-    margin-left:3.25rem;
-    gap:1rem;
-
+.form-head {
+  margin: 3.25rem;
+  margin-bottom: 1.5rem;
+  font-size: 1.75rem;
+  font-weight: 400;
 }
 
-input{
-    padding: .75rem;
-    border:1px solid #000;
+.forms {
+  display: flex;
+  flex-flow: column wrap;
+
+  width: 90%;
+  margin-left: 3.25rem;
+  gap: 1rem;
 }
 
-input::placeholder{
-    font-size: 1rem;
-    
+input {
+  padding: 0.75rem;
+  border: 1px solid #000;
 }
 
-input:focus{
-    outline: none;
+input::placeholder {
+  font-size: 1rem;
 }
 
-#btn-signup,#btn-login,#btn-profile,#log-out,#btn-edit-pass{
-    background-color: #000;
-    color:#fff;
-    border: 2px solid #000;
-
-    align-self: flex-start;
-
-    overflow-x: hidden;
+input:focus {
+  outline: none;
 }
 
-#btn-signup:hover{
-    background-color: antiquewhite;
-    color:#000 ;
-    
+#btn-signup,
+#btn-login,
+#btn-profile,
+#log-out,
+#btn-edit-pass {
+  background-color: #000;
+  color: #fff;
+  border: 2px solid #000;
+
+  align-self: flex-start;
+
+  overflow-x: hidden;
+}
+
+#btn-signup:hover {
+  background-color: antiquewhite;
+  color: #000;
 }

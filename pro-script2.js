@@ -68,3 +68,7 @@ document.getElementById("home").addEventListener("click", () => {
 document.getElementById("cart").addEventListener("click", () => {
   alert("User not logged in");
 });
+
+document.getElementById("new").onclick = () => {
+  window.location.replace("./signup.html");
+};
